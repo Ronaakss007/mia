@@ -24,3 +24,70 @@ Traceback (most recent call last):
 NameError: name 'Image' is not defined
 [19-Apr-25 14:18:04 - INFO] - root - Stop signal received (SIGINT). Exiting...
 [19-Apr-25 14:18:35 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[19-Apr-25 14:22:19 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[19-Apr-25 14:33:57 - WARNING] - pyrogram.session.session - [Bot] Waiting for 3 seconds before continuing (required by "messages.SendMessage")
+[19-Apr-25 14:33:57 - WARNING] - pyrogram.session.session - [Bot] Waiting for 3 seconds before continuing (required by "messages.SendMessage")
+[19-Apr-25 14:33:58 - WARNING] - pyrogram.session.session - [Bot] Waiting for 3 seconds before continuing (required by "messages.SendMessage")
+[19-Apr-25 14:34:02 - ERROR] - pyrogram.dispatcher - Telegram says: [420 FLOOD_WAIT_X] - A wait of 13 seconds is required (caused by "messages.SendMessage")
+Traceback (most recent call last):
+  File "C:\Users\saini\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\saini\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\saini\OneDrive\Desktop\New folder\tokenprem\plugins\useless.py", line 52, in global_ban_check_message
+    await message.reply(
+  File "C:\Users\saini\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 1124, in reply_text
+    return await self._client.send_message(
+  File "C:\Users\saini\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\send_message.py", line 142, in send_message
+    r = await self.invoke(
+  File "C:\Users\saini\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 79, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\saini\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 373, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\saini\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 332, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\saini\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.flood_420.FloodWait: Telegram says: [420 FLOOD_WAIT_X] - A wait of 13 seconds is required (caused by "messages.SendMessage")
+[19-Apr-25 14:34:02 - ERROR] - pyrogram.dispatcher - Telegram says: [420 FLOOD_WAIT_X] - A wait of 13 seconds is required (caused by "messages.SendMessage")
+Traceback (most recent call last):
+  File "C:\Users\saini\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\saini\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\saini\OneDrive\Desktop\New folder\tokenprem\plugins\useless.py", line 52, in global_ban_check_message
+    await message.reply(
+  File "C:\Users\saini\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 1124, in reply_text
+    return await self._client.send_message(
+  File "C:\Users\saini\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\send_message.py", line 142, in send_message
+    r = await self.invoke(
+  File "C:\Users\saini\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 79, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\saini\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 373, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\saini\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 332, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\saini\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.flood_420.FloodWait: Telegram says: [420 FLOOD_WAIT_X] - A wait of 13 seconds is required (caused by "messages.SendMessage")
+[19-Apr-25 14:34:02 - ERROR] - pyrogram.dispatcher - Telegram says: [420 FLOOD_WAIT_X] - A wait of 13 seconds is required (caused by "messages.SendMessage")
+Traceback (most recent call last):
+  File "C:\Users\saini\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\saini\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\saini\OneDrive\Desktop\New folder\tokenprem\plugins\useless.py", line 52, in global_ban_check_message
+    await message.reply(
+  File "C:\Users\saini\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 1124, in reply_text
+    return await self._client.send_message(
+  File "C:\Users\saini\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\send_message.py", line 142, in send_message
+    r = await self.invoke(
+  File "C:\Users\saini\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 79, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\saini\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 373, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\saini\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 332, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\saini\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.flood_420.FloodWait: Telegram says: [420 FLOOD_WAIT_X] - A wait of 13 seconds is required (caused by "messages.SendMessage")
