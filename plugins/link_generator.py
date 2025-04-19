@@ -344,6 +344,9 @@ import os
 from pyrogram import Client, filters
 from pyrogram.types import Message
 import re
+from pathlib import Path
+
+FONT_PATH = Path("fonts/arialbd.ttf")
 
 TERABOX_DOMAINS = [
     'terabox.com', 'nephobox.com', '4funbox.com', 'mirrobox.com',
@@ -403,8 +406,8 @@ async def terabox_command(client: Client, message: Message):
     draw = ImageDraw.Draw(txt)
 
     try:
-        font_center = ImageFont.truetype("arialbd.ttf", size=int(im.height * 0.1))  # Larger font for center
-        font_border = ImageFont.truetype("arialbd.ttf", size=int(im.height * 0.05))  # Smaller font for border
+        font_center = ImageFont.truetype(str(FONT_PATH), size=int(im.height * 0.1))
+        font_border = ImageFont.truetype(str(FONT_PATH), size=int(im.height * 0.05))
     except IOError:
         font_center = ImageFont.load_default()
         font_border = ImageFont.load_default()

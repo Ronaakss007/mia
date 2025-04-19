@@ -21,7 +21,7 @@ DEFAULT_WELCOME = ""
 envelop_db_str = os.environ.get("ENVELOP_DB", "-1002396123709,-1002421255405,-1002314871293")
 ENVELOP_DB = [int(chat_id.strip()) for chat_id in envelop_db_str.split(",")]
 # your bot token from @BotFather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7441944817:AAEabmOW7aQsLZnzIn28EZJujCHHbEv7Wgk") 
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7441944817:AAG9FkaYlEVOyzZkSzCgEWjl24coztGFs54") 
 #your api id from https://my.telegram.org/apps
 APP_ID = int(os.environ.get("APP_ID", "27311593"))
 #your api hash from https://my.telegram.org/apps
