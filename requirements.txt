@@ -1,4 +1,4 @@
-# --- For-Bot-Working --------- #
+# --- For Bot Working --- #
 pyrofork
 tgcrypto
 pyromod==1.5
@@ -6,21 +6,21 @@ aiogram
 python-dotenv
 psutil
 tqdm
-# --- For-Database ------------ #
+
+# --- For Database --- #
 pymongo
 motor
 umongo
 marshmallow
 dnspython
 cachetools
-# --- For-Web-Response ------- #
-Pillow
+
+# --- For Web Response --- #
+pillow
 pytz
 requests
-# paytmchecksum
-bs4
-shortzy
 beautifulsoup4
+shortzy
 aiohttp
 aiofiles
 asyncio
