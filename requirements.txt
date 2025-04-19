@@ -1,0 +1,27 @@
+# --- For-Bot-Working --------- #
+pyrofork
+tgcrypto
+pyromod==1.5
+aiogram
+python-dotenv
+psutil
+tqdm
+# --- For-Database ------------ #
+pymongo
+motor
+umongo
+marshmallow
+dnspython
+cachetools
+# --- For-Web-Response ------- #
+Pillow
+pytz
+requests
+# paytmchecksum
+bs4
+shortzy
+beautifulsoup4
+aiohttp
+aiofiles
+asyncio
+nest_asyncio

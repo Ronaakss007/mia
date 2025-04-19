@@ -1,0 +1,13 @@
+[19-Apr-25 14:06:31 - ERROR] - pyrogram.dispatcher - Message.reply_photo() got an unexpected keyword argument 'message_effect_id'
+Traceback (most recent call last):
+  File "C:\Users\saini\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\saini\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\saini\OneDrive\Desktop\New folder\tokenprem\plugins\start.py", line 1201, in start_command
+    await message.reply_photo(
+  File "C:\Users\saini\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\sync.py", line 53, in async_to_sync_wrap
+    coroutine = function(*args, **kwargs)
+TypeError: Message.reply_photo() got an unexpected keyword argument 'message_effect_id'
+[19-Apr-25 14:06:57 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[19-Apr-25 14:08:46 - INFO] - root - Stop signal received (SIGINT). Exiting...
