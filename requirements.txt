@@ -14,7 +14,7 @@ marshmallow
 dnspython
 cachetools
 # --- For-Web-Response ------- #
-Pillow
+# Pillow
 pytz
 requests
 # paytmchecksum

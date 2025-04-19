@@ -339,7 +339,7 @@ async def click_command(client: Client, message: Message):
     except Exception as e:
         await message.reply(f"❌ **Eʀʀᴏʀ:** `{str(e)}`\n🚨 _Pʟᴇᴀsᴇ ᴛʀʏ ᴀɢᴀɪɴ!_")
 
-from PIL import Image, ImageDraw, ImageFont, ImageFilter
+# from PIL import Image, ImageDraw, ImageFont, ImageFilter
 import os
 from pyrogram import Client, filters
 from pyrogram.types import Message
