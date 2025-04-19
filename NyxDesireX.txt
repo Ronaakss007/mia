@@ -13,3 +13,14 @@ TypeError: Message.reply_photo() got an unexpected keyword argument 'message_eff
 [19-Apr-25 14:08:46 - INFO] - root - Stop signal received (SIGINT). Exiting...
 [19-Apr-25 14:16:43 - WARNING] - pyrogram.session.session - [Bot] Waiting for 3 seconds before continuing (required by "messages.SendMessage")
 [19-Apr-25 14:16:55 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[19-Apr-25 14:17:48 - ERROR] - pyrogram.dispatcher - name 'Image' is not defined
+Traceback (most recent call last):
+  File "C:\Users\saini\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\saini\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\saini\OneDrive\Desktop\New folder\tokenprem\plugins\link_generator.py", line 396, in terabox_command
+    im = Image.open(image_path).convert("RGBA")
+NameError: name 'Image' is not defined
+[19-Apr-25 14:18:04 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[19-Apr-25 14:18:35 - INFO] - root - Stop signal received (SIGINT). Exiting...
